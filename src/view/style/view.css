@@ -1,0 +1,17 @@
+.placholder {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+}
+
+.placholder p:first-child {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.placholder p:last-child {
+    font-size: 18px;
+}
