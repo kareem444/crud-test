@@ -1,9 +1,7 @@
 import { ADD_USER, DELETE_USER, EDIT_USER } from "../types";
 
 const INITIAL_STATE = {
-    users: [
-        {name : "lare" , age:4 , gender : "Male"}
-    ],
+    users: [],
 };
 
 export default (state = INITIAL_STATE, action) => {
